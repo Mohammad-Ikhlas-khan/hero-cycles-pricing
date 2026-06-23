@@ -44,11 +44,21 @@ git clone https://github.com/Mohammad-Ikhlas-khan/hero-cycles-pricing.git
 cd hero-cycles-pricing
 ```
 
-### 2 — Start the backend (Spring Boot)
+## 2 — Start the backend (Spring Boot)
+
+### Option A - Using Maven directly
 
 ```bash
 cd backend
 mvn spring-boot:run
+```
+
+### Option B - Using Docker
+
+```bash
+cd backend
+docker build -t backend .
+docker run -p 8080:8080 backend
 ```
 
 The server starts on **http://localhost:8080**.  
