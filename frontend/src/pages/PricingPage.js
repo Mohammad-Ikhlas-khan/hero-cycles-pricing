@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchConfigurations, fetchPriceBreakdown } from '../services/api';
-import { IndianRupee, ChevronDown, Layers } from 'lucide-react';
+import {  ChevronDown, Layers } from 'lucide-react';
 
 const INR = (n) => '₹' + Number(n).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 

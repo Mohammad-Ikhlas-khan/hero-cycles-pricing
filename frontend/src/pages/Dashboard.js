@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchParts, fetchConfigurations } from '../services/api';
-import { Wrench, Settings2, IndianRupee, TrendingUp, ArrowRight } from 'lucide-react';
+import { Wrench, Settings2, IndianRupee, TrendingUp } from 'lucide-react';
 
 const INR = (n) => '₹' + Number(n).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
